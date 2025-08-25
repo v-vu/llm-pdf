@@ -1,14 +1,21 @@
-langchain==0.0.184
-PyPDF2==3.0.1
-python-dotenv==1.0.0
-streamlit==1.18.1
-openai==0.27.6
-faiss-cpu==1.7.4
-altair==4
-tiktoken==0.4.0
-# uncomment to use huggingface llms
- huggingface-hub==0.14.1
+# core 
+streamlit>=1.33.0
+python-dotenv>=1.0.0
+pypdf>=4.2.0
 
-# uncomment to use instructor embeddings
- InstructorEmbedding==1.0.1
- sentence-transformers==2.2.2
+# vector database
+faiss-cpu>=1.7.4
+
+# langchain ecosystem
+langchain>=0.3.0
+langchain-community>=0.3.0
+langchain-huggingface>=0.3.0
+langchain-openai>=0.3.0
+
+# embeddings / models
+huggingface_hub>=0.23.0
+sentence-transformers>=2.7.0
+
+# optional, if you ever switch to OpenAI API
+openai>=1.35.0
+tiktoken>=0.7.0
