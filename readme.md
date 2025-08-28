@@ -12,7 +12,7 @@ It leverages a language model to generate accurate answers to your queries.
 
 ## 🛠 How It Works
 
-![MultiPDF Chat App Diagram](./docs/PDF-LangChain.jpg)
+![MultiPDF Chat App Diagram](./PDF-LangChain.jpg)
 
 The application follows these steps to provide responses to your questions:
 
